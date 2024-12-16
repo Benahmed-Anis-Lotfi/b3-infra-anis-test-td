@@ -28,7 +28,7 @@ class Cart:
 
     def calculate_total_with_discount(self):
         total = self.calculate_total()
-        if total > 50:
-            return total * 0.8
+        if total > 1000:
+            return total * 0.9
         else:
              return total

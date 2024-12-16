@@ -38,5 +38,7 @@ class TestProduct(unittest.TestCase):
         self.assertEqual(result, "Laptop (1200.0€, Stock: 5)")
         print("[Test] String Representation passed.")
 
+    
+
 if __name__ == "__main__":
     unittest.main(buffer=False)  # Disable buffering to display prints
