@@ -38,5 +38,8 @@ def main():
     print(p2)
     print(p3)
 
+    #afficher le nombre d'items dans le panier 
+    order.print_items_list()
+
 if __name__ == "__main__":
     main()

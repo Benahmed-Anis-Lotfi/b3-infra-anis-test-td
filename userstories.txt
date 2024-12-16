@@ -26,3 +26,11 @@ Critères : si le panier ne comporte aucun produit, afficher une page "Votre pan
 En tant que "propriétaire du site",
 Je veux pouvoir faire bénéficier automatiquement mon client d'une réduction de 10% pour un achat qui excède 1000€
 Afin de faciliter la gestion des réductions en incitant le client à consommer. 
+Critères : la réduction est valable à partir d'un panier supérieur ou égal à 1000€.
+
+<print_items_list>
+En tant que "utilisateur"
+Je veux "pouvoir visualiser la quantité totale d'éléments présent dans mon panier peut import l'objet"
+afin "de visualiser le nombre total d'articles"
+ 
+Critères : Il faut que le panier soit rempli d'au moins un article.

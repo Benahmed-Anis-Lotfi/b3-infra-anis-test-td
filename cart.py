@@ -28,7 +28,12 @@ class Cart:
 
     def calculate_total_with_discount(self):
         total = self.calculate_total()
-        if total > 1000:
+        if total >= 1000:
             return total * 0.9
         else:
              return total
+        
+    def calculate_total_items(self):
+        if not self.items:
+            raise ValueError("Le panier est vide. Ajoutez au moins un article.")
+        return sum(self.items.values())
