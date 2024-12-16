@@ -22,3 +22,7 @@ Je veux pouvoir savoir afficher mon panier et son contenu
 afin de savoir si les produits se sont bien ajoutés et si ce sont les bons. 
 Critères : si le panier ne comporte aucun produit, afficher une page "Votre panier est vide". 
 
+<calculate_total_with_discount>
+En tant que "propriétaire du site",
+Je veux pouvoir faire bénéficier automatiquement mon client d'une réduction de 10% pour un achat qui excède 1000€
+Afin de faciliter la gestion des réductions en incitant le client à consommer. 
