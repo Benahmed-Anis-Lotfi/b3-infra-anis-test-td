@@ -1,0 +1,24 @@
+<add_product>
+En tant que "utilisateur", 
+Je veux pouvoir ajouter un produit à mon panier,
+afin de savoir s'il est encore disponible.
+Critères : si un produit n'est pas disponible, on ne peut pas le rajouter.
+
+<remove_product>
+En tant que "utilisateur",
+Je veux pouvoir supprimer un produit de mon panier,
+afin de pouvoir corriger mon panier en cas d'erreur d'ajout.
+Critères : il faut que le panier contienne au moins un produit.
+
+<calculate_total>
+En tant que "utilisateur",
+Je veux pouvoir connaître le montant total de mon panier,
+afin de pouvoir gérer mon budget.
+Critères : Il faut que le panier comporte au moins un produit.
+
+<display_cart>
+En tant que "utilisateur",
+Je veux pouvoir savoir afficher mon panier et son contenu 
+afin de savoir si les produits se sont bien ajoutés et si ce sont les bons. 
+Critères : si le panier ne comporte aucun produit, afficher une page "Votre panier est vide". 
+

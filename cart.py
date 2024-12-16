@@ -25,3 +25,10 @@ class Cart:
             return "Your cart is empty."
         return "\n".join([f"{product.name} x {quantity} - {product.price * quantity}€"
                           for product, quantity in self.items.items()])
+
+    def calculate_total_with_discount(self):
+        total = self.calculate_total()
+        if total > 50:
+            return total * 0.8
+        else:
+             return total

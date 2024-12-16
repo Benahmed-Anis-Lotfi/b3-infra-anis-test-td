@@ -7,7 +7,7 @@ class Order:
         if not cart.items:
             raise ValueError("Cart is empty. Cannot place an order.")
         self.items = cart.items
-        self.total = cart.calculate_total()
+        self.total = cart.calculate_total_with_discount()
 
     def place_order(self):
         for product, quantity in self.items.items():
